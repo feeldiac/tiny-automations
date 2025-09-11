@@ -31,7 +31,7 @@ wins = gw.getWindowsWithTitle("Discord")
 # Filter with "#stuff" word (just for testing purpose with my Discord server)
 discord_window = None
 for w in wins:
-    print("👍 Detected this: window", w.title)  # debug
+    print("👍 Detected this window: ", w.title)  # debug
 
     if "#stuff" in w.title:
         discord_window = w
