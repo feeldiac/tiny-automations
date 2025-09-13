@@ -5,9 +5,6 @@ import pyperclip
 
 from src.discord_greetings_01.utils.message import get_message
 
-# The main objective of this automation is to avoid me to
-# enter to my job's discord and say good morning or whatever.
-
 # Get all open windows
 wins = gw.getWindowsWithTitle("Discord")
 
